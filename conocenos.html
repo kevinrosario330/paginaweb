@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+		body{
+	font: 15x/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+header{
+		background:#35424a;
+		color:color:#FFC300;;
+		padding-top:30px;
+		min-height: :70px;
+		border-bottom:#FFC300 5px solid;
+	}
+
+		.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+
+	}
+
+	ul{
+		marin:0;
+		padding:0;
+				list-style: none;
+
+	}
+header a{
+		color:#FFC300;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size:16px;
+	}
+
+	
+	header li{
+		float:left;
+		display:inline;
+		padding: 0 20px 0 20px;
+
+	}
+
+	header #branding{
+		float:left;
+	}
+
+	header #branding h1{
+		margin:0;
+	}
+
+	header nav{
+		float:right;
+		margin-top:10px;
+	}
+
+	header .highlight, header .current a{
+		color:#FFC300;
+		font-weight:bold;
+	}
+
+	/* highlight de botones */
+	header a:hover{
+		color:white;
+		font-weight:bold;
+	}
+
+
+
+.barberoIndividual{
+width:  50%;
+height: 270px;
+background-color: gray;
+background-position: center;
+}
+
+.barberoIndividual img{
+
+width: 250px; 
+height: 250px;
+padding-top: 10px;
+padding-left: 30px;
+}
+
+.footer{
+		padding:50px 0;
+		background-color:#35424a;
+	}
+ 
+	.footerC {
+
+		max-width: 2000px;
+color: white;
+
+		margin: auto;
+	}
+
+ 	
+.row {
+	display: flex;
+	flex-wrap: wrap;
+ border: 6px solid #FFC300;
+ border-radius: 5px;
+ background: black;
+}
+
+
+
+.footer-col{
+width:  25%;
+padding-top: 1px;
+}
+ .rowFooter{
+	display: flex;
+	flex-wrap: wrap;
+
+
+ }
+.swiper{
+	width: 300px;
+height:300px;
+}
+
+.swiper-slide img{
+width: 300px;
+height: 300px;
+}
+
+
+.swiper-button-next {
+    color:#35424a;
+}
+/* responsive proceso */
+
+@media(max-width:  757px){
+
+	.footer-col{
+		    width: 50%;
+    padding: 0 30px;
+	}
+}
+
+@media(max-width:  757px){
+
+	.footer-col{
+		    width: 100%;
+	}
+}
+
+
+
+</style>
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Affordable and and professional web design">
+	<meta name="keywords" content="barber,barbershop">
+	<meta name="author" content="Kevin Rosario">
+	<title> Mykel Cutz Barbershop</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight"> Mykel Cutz Barbershop</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Inicio</a></li>
+					<li><a href="about.html">Conocenos</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="https://booksy.com/en-us/449113_mykel-cutz-barbershop_barber-shop_34800_santa-isabel?do=invite&_branch_match_id=1121930734027843217&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FV93cM9yrwLAuPKEkCAF8c9CAiAAAA" target="_blank">Citas</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+
+<section id="informacionBarbero" style="padding-top: 20px;">
+
+<div class="row " >
+
+
+		<div class="barberoIndividual">
+
+
+			<img src="./img/mykelBarber.jpg" style=" padding-left: 160px;" >
+
+		</div>
+
+
+
+			<div class="barberoIndividual" style="font-size: 200%; font-family:garamond; ">
+				<h3 style="text-align: center;">  Mykel </h3>
+		<p> Barbero versátil con enfoque en corte clásico y moderno, detallado en su servicio. La dedicación y la amabilidad son sus mejores cualidades. Con él encontrarás una buena charla, una buena cerveza y un buen corte.</p>
+		</div>		
+</div>
+
+  <br>
+<br>
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="./img/mykel1.jpg"></div>
+    <div class="swiper-slide"><img src="./img/mykel2.jpg">
+</div>
+    ...
+  </div>
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+ 
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="row" >
+
+		<div class="barberoIndividual">
+			<img src="./img/jeanBarber.jpg"  style=" padding-left: 160px;"
+			>
+
+		</div>
+
+
+			<div class="barberoIndividual" style="font-size: 200%; font-family:garamond">
+
+								<h3 style="text-align: center;">  Jean </h3>
+
+		<p> Eterno apasionado por el oficio de la barbería clásica. Si tu idea es revivir el estilo tradicional en barba y o cabello, tener una charla amena y recibir los mejores consejos para tu cuidado personal, esta es la silla a la que debes acudir.</p>
+
+
+
+
+		</div>		
+</div>
+
+  <br>
+<br>
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="./img/jean1.png"></div>
+    <div class="swiper-slide"><img src="./img/jean2.jpg">
+</div>
+    ...
+  </div>
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+ 
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="row">
+		<div class="barberoIndividual" >
+			<img src="./img/robertoBarber.jpg"  style=" padding-left: 160px; ">
+
+		</div>
+
+			<div class="barberoIndividual" style="font-size: 200%; font-family:garamond">
+
+								<h3 style="text-align: center;">  Roberto </h3>
+
+		<p>La versatilidad en su técnica le permite manejar estilos clásicos y modernos. Un apasionado por definir y pulir con tijera la barba y el cabello de cada cliente de forma excepcional.</p>
+		</div>		
+</div>
+  <br>
+<br>
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="./img/alexito1.jpeg"></div>
+    <div class="swiper-slide"><img src="./img/alexito2.jpeg">
+</div>
+    ...
+  </div>
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev" style=""></div>
+  <div class="swiper-button-next"></div>
+
+ 
+</div>
+
+</section>
+  <br>
+<br>  
+<br>
+<br>
+<footer class="footer">
+
+		<div class="footerC">
+			<div class="rowFooter">
+			<div class ="footer-col">
+			<img src="./img/logo.png" width="250" height="250">
+
+				</div>
+
+
+	
+
+
+		<div class ="footer-col">
+				<h4>Horario</h4>
+				<ul>
+					<li> Lunes 8:00 am - 6:00 pm </a></li>
+					<li> Martes 8:00 am - 6:00 pm </a></li>
+					<li> Miercoles 8:00 am - 6:00 pm </a></li>
+					<li> Jueves 8:00 am - 6:00 pm </a></li>
+					<li> Viernes 8:00 am - 6:00 pm </a></li>
+					<li> Sabado 8:00 am - 6:00 pm </a></li>
+					<li> Domingo Cerrado </a></li>
+
+
+				</ul>
+				</div>
+
+
+		<div class ="footer-col">
+				<h4>Direccion</h4>
+				<ul>
+					<li> 413–461 PR-153 Santa Isabel </a></li>
+					<li> PR 00757 Estados Unidos </a></li>
+					<li> Santa Isabel, Puerto Rico</a></li>
+
+				</ul>
+				</div>
+
+
+		<div class ="footer-col">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3794.389944928907!2d-66.3921284851649!3d18.007097987710083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2spr!4v1680064279987!5m2!1sen!2spr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+		
+
+
+			
+
+
+
+		</div>
+
+
+  		
+
+		</div>
+	
+		
+
+
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script >
+	const swiper = new Swiper('.swiper', {
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+});
+</script>
+
+</body>
+</html>
